@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main- prints single digits in base 10
+ * main - prints single digits in base 10
  * Return: Always 0
  */
 int main(void)
@@ -10,7 +10,7 @@ int main(void)
 	for (num = 0; num < 10; num++)
 		putchar((num % 10) + '0');
 
-	putchar('\n\');
+	putchar ('\n\')
 
-	return (0);
+	return (0)
 }
