@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-/**main - entry
- * description: prints all possible combinations of 
+/**
+ * main - entry
+ * description: prints all possible combinations of
  * two-digit numbers
  * Return : 0
  */
@@ -43,4 +44,7 @@ int main(void)
 		}
 		c++;
 	}
+	putchar('\n');
+	return (0);
+}
 
