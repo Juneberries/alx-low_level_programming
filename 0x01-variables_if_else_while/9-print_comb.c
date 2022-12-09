@@ -1,22 +1,26 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
- * main - prints all combinations of single digits
- * Return : ALways 0
+ * main - prints all combinations of single digits of base 10 starting
+ *from 0, followed by a new line
+ * Return : Always 0
  */
-int main(void)
-{
-	int n;
 
-	for (n = 48; n < 58; n++)
+int main(void) 
+{
+	int c = 0;
+
+	while (c < 10)
 	{
-		putchar(n);
-		if (n != 57)
+		putchar(48 + c);
+		if (c != 9)
 		{
-			putchar(',');
+			putchar (',');
 			putchar(' ');
 		}
-
-	putchar('\n');
+		c++;
 	}
+	putchar('\n');
+
 	return (0);
 }
