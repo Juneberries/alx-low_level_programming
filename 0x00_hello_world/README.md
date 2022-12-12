@@ -1,1 +1,1 @@
-this is my first C writing
+C - Hello, World
