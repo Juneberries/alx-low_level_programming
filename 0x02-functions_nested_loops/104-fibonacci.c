@@ -23,7 +23,7 @@ int main(void)
 	n2_h1 = n2 / 10000000000;
 	n1_h2 = n1 % 10000000000;
 	n2_h2 = n2 % 10000000000;
-	for (inc = 93, inc < 99; inc++)
+	for (inc = 93; inc < 99; inc++)
 	{
 		h1 = n1_h1 + n2_h1;
 		h2 = n1_h2 + n2_h2;
