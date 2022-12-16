@@ -7,7 +7,7 @@
  * used in 0x04-more_functions_nested_loops directory
  */
 int _putchar(char c);
-
+int mul(int a, int b)
 
 
 
