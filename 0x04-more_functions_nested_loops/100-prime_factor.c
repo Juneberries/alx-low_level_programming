@@ -7,7 +7,7 @@ int main(void)
 {
 	long int n, fp;
 
-	n = 612852475143
+	n = 612852475143;
 	for (fp = 2; fp <= n; fp++)
 	{
 		if (n % fp == 0)
