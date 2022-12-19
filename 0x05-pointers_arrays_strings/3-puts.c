@@ -2,7 +2,7 @@
 /**
  * _puts - write a function that prints a string, followed
  * by a new line, to stdout
- * @str:my input string
+ * @str: my input string
  */
 void _puts(char *str)
 {
