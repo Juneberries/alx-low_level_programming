@@ -3,14 +3,16 @@
  * _puts - write a function that prints a string, followed
  * by a new line, to stdout
  * @str: my input string
+ * Return: void
  */
 void _puts(char *str)
 {
-	int index;
+	int i = 0;
 
-	for (index = 0; str[index] != '\0'; index++)
+	while (str[i])
 	{
-		_putchar(str[index]);
+		_putcahr(str[i]);
+		i++;
 	}
 	_putchar('\n');
 }
