@@ -4,7 +4,7 @@
  * @n: pointer block of memory to fill
  * Return: factorial
  */
-int factorial(int n);
+int factorial(int n)
 {
 	if (n == 0) /*Base Condition*/
 		return (1);
