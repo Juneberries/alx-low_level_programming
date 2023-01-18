@@ -1,34 +1,35 @@
 #include "dog.h"
 #include <stdlib.h>
 
-int _strlen(char *str);
-char *_strcopy(char *dest, char *src);
-dog_t *new_dog(char *name, float age, char *owner);
-
 /**
  * _strlen - finds the length of a string
- * @str: the string to be measured
+ * @s: the string to be measured
  * Return: the length of the string
  */
 
-int _strlen(char *str)
+int _strlen(char *s)
 {
-	int len = 0;
+	int i;
 
-	while (*str++)
-		len++;
+	i = 0;
 
-	return (len);
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+
+	return (i);
 }
+
 /**
- * _strcopy - copies a string pointed to the src, including the
+ * _strcpy - copies a string pointed to the src, including the
  * terminating null byte, to a buffer printed by dest
  * @dest: the buffer string storing the string copy
  * @src: the source string
  * Return: the pointer to dest
  */
 
-char *_strcopy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int index = 0;
 
