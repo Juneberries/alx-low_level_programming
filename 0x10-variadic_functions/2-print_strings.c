@@ -8,10 +8,10 @@
  * @n: number of strings passed to the function
  * Return: no return
  */
-void print_strings(const char *separator, const unsigned int n, ...);
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list valist;
-	unsigned int o;
+	unsigned int i;
 	char *str;
 
 	va_start(valist, n);
