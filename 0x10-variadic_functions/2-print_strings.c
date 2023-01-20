@@ -10,7 +10,6 @@
  *
  * Description: if separator is NULL, it is not printed
  * if one of the strigns is NULL, (nil) is printed instead
- * Return: no return
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
@@ -19,7 +18,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	unsigned int index;
 
 	va_start(strings, n);
-	for (index - 0; index < n; index++)
+	for (index = 0; index < n; index++)
 	{
 		str = va_arg(strings, char *);
 		if (str == NULL)
